@@ -1,0 +1,13 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        String kanishk;
+        kanishk = "Kanishk Batra";
+        System.out.println(kanishk);
+
+        int salary =32;
+        int savings = salary/4;
+        System.out.println(salary);
+        System.out.println(savings);
+
+    }
+}
