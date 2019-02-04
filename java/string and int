@@ -14,5 +14,9 @@ public class HelloWorld {
         int fruit = apples+oranges;
         System.out.println(fruit);
 
+        double apples=5.0;
+        double oranges=6.0;
+        double fruit = (oranges-apples)/2;
+        System.out.println(fruit);
     }
 }
