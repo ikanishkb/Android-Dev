@@ -4,10 +4,10 @@ public class HelloWorld {
         kanishk = "Kanishk Batra";
         System.out.println(kanishk);
 
-        int salary =32;
-        int savings = salary/4;
-        System.out.println(salary);
-        System.out.println(savings);
+        int salaryWeekly =3200;
+        int salaryMonthly = salaryWeekly*4;
+        System.out.println(salaryWeekly);
+        System.out.println(salaryMonthly);
 
     }
 }
