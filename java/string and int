@@ -8,6 +8,11 @@ public class HelloWorld {
         int salaryMonthly = salaryWeekly*4;
         System.out.println(salaryWeekly);
         System.out.println(salaryMonthly);
+        
+        int apples=5;
+        int oranges=6;
+        int fruit = apples+oranges;
+        System.out.println(fruit);
 
     }
 }
