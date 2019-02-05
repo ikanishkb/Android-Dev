@@ -2,6 +2,7 @@ public class Main {
     public static void main(String args[]) {
         int lives = -1;
         boolean isGameOver = (lives<1);
+        System.out.println(isGameOver);
         
         if (isGameOver){
             System.out.println("Game Over!");
