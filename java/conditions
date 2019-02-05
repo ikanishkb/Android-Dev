@@ -1,8 +1,9 @@
 public class Main {
     public static void main(String args[]) {
-        int lives = 3;
-
-        if (lives<1){
+        int lives = -1;
+        boolean isGameOver = (lives<1);
+        
+        if (isGameOver){
             System.out.println("Game Over!");
         }
         else{
