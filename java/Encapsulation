@@ -1,0 +1,39 @@
+Player.java
+public class Player {
+    private String handleName;
+    private int lives;
+    private int level;
+    private int score;
+
+    public Player() {
+        handleName = "Unknown player";
+        lives = 3;
+        level = 1;
+        score = 0;
+    }
+
+    public String getHandleName() {
+        return handleName;
+    }
+
+    public void setHandleName(String handle) {
+        if(handle.length() <3) {
+            return;
+        }
+        handleName = handle;
+    }
+}
+
+
+
+
+//Demo.java
+public class Demo {
+
+    public static void main(String[] args) {
+        Player tim = new Player();
+        System.out.println(tim.getHandleName());
+        tim.setHandleName("Tim");
+        System.out.println(tim.getHandleName());
+    }
+}
